@@ -34,6 +34,34 @@
   color:rgba(63, 62, 62, 0.832)
   
 }
+.bg-footer{
+  background-color: #092b15;
+}
+.text-footer{
+  color: #85dc3a;
+}
+.img-footer{
+  max-width: 200px;
+}
+.rrss a {
+  color: #fff;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  transition: all ease-in-out .3s;
+}
+.rrss svg {
+  width: 14px;
+  height: 14px;
+}
+.rrss li {
+  border: 1px solid #FFF;
+  border-radius: 99999px;
+}
+.rrss a:hover {
+  opacity: 0.5;
+}
 
 /*.flex{
   display: flex;
