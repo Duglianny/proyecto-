@@ -8,11 +8,28 @@
 .top-nav{
   top: 1rem;
 }
+.pt-main{
+  padding-top: 7rem;
+}
+.bg-main {
+  background-image: url('https://assets-global.website-files.com/60d263de8eda3578586aa8e8/60db77a5da938326774e89a5_hero-background-business.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texto h1{
+  font-size: 3rem;
+  color: #262626e5;
+  width: 90%;
+ 
+}
+.fs-xs {
+  font-size: 0.875rem;
+}
 
-.flex{
+/*.flex{
   display: flex;
   align-items: center;
-}
+}*/
 .navbar-brand img{
   width: 10rem;
 }
@@ -47,12 +64,7 @@
   color: #fff;
 }
 
-.texto h1{
-  font-size: 4rem;
-  color: #262626e5;
-  width: 90%;
-  margin-bottom: 10rem;
-}
+
 form{
   background-color: #fff;
   padding: 2rem 3rem;
