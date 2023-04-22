@@ -10,10 +10,10 @@
 </head>
 <body>
 
-
-  <div class="contenedor ">
-
-    <nav class="navbar navbar-expand-lg ">
+<!--header-->
+  <header class="fixed-top top-nav">
+    <div class="container">
+      <nav class=" navbar navbar-expand-lg shadow bg-white pe-1 ps-4 py-2 rounded-4">
       <div class="container-fluid ">
         <a class="navbar-brand" href="#"><img src="./img/paguefacil.png" alt="imagen logo "></a>
         
@@ -44,67 +44,88 @@
           </button>
         </div>
       </div>
-    </nav>
+      </nav>
+    </div>  
+  </header>
+  <!--fin header-->
 
-    <div class="flex">
-      <div class=" texto col-sm-12 col-md-6 col-lg-6 colxl-6">
-
-        <h1>Contacta con nuestro equipo de ventas rápidamente. </h1>
-
-        <div class="text">
-          <h3>Te ofrecemos una infraestructura de pagos por internet segura y confiable.</h3>
+  <!--main-->
+  <main>
+    <section>
+      <div class="flex">
+        <div class=" texto col-sm-12 col-md-6 col-lg-6 colxl-6">
+  
+          <h1>Contacta con nuestro equipo de ventas rápidamente. </h1>
+  
+          
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <form id="formulario">
+            <p>Este formulario será enviado a nuestro equipo de ventas para que comiences a hacer cobros en línea con tus clientes.</p>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre">
+          
+            </div>
+            <div class="mb-3">
+              <label for="Apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="Apellidos" placeholder="Apellido">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electronico</label>      
+              <input type="text" id="correo" class="form-control" placeholder="Dirección de Correo Electronico">
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Telefono</label>
+              <input type="number" class="form-control" id="telefono" placeholder="Celular o Telefono fijo ">
+            </div>
+  
+            <div class="mb-3">
+              <label for="empresa" class="form-label">Nombre de la Empresa</label>
+              <input type="text" class="form-control" id="empresa" placeholder="Empresa a la que perteneces"> 
+            </div>
+  
+            <div class="mb-3">
+              <label for=estimado" class="form-label">Estimado de ventas mensuales</label>
+              <select class="form-select" aria-label="Default select example" id="select">
+                <option selected disabled> Selecciona un estimado mensual...</option>
+                <option value="1">Menos de $50.000</option>
+                <option value="3">$50.000 a $100.000</option>
+                <option value="4">$100.000 a $500.000</option>
+              </select>
+            </div>
+     
+            <div class="mb-3">
+              <label for="comentario" class="form-label">¿Deseas dejarnos algún comentario?</label>
+              <textarea class="form-control" id="comentario" rows="2" placeholder="Danos más información sobre tu proyecto, necesidades y plazos"></textarea>
+            </div>
+        
+            <div class="d-grid gap-2">
+              <button class="btn  enviar descargar py-2 px-4" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>  
+      </div>
+    </section>
+    
+    <section>
+      <div class="text">
+        <h3>Te ofrecemos una infraestructura de pagos por internet segura y confiable.</h3>
+        <div class="parrafo">
           <p>Emprendedores, PYMES y grandes empresas utilizan nuestros plugins y SDKs para hacer cobros en línea.</p>
         </div>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <form id="formulario">
-          <p>Este formulario será enviado a nuestro equipo de ventas para que comiences a hacer cobros en línea con tus clientes.</p>
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombres</label>
-            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre">
-        
-          </div>
-          <div class="mb-3">
-            <label for="Apellidos" class="form-label">Apellidos</label>
-            <input type="text" class="form-control" id="Apellidos" placeholder="Apellido">
-          </div>
-          <div class="mb-3">
-            <label for="correo" class="form-label">Correo Electronico</label>      
-            <input type="text" id="correo" class="form-control" placeholder="Dirección de Correo Electronico">
-          </div>
-          <div class="mb-3">
-            <label for="telefono" class="form-label">Telefono</label>
-            <input type="number" class="form-control" id="telefono" placeholder="Celular o Telefono fijo ">
-          </div>
-
-          <div class="mb-3">
-            <label for="empresa" class="form-label">Nombre de la Empresa</label>
-            <input type="text" class="form-control" id="empresa" placeholder="Empresa a la que perteneces"> 
-          </div>
-
-          <div class="mb-3">
-            <label for=estimado" class="form-label">Estimado de ventas mensuales</label>
-            <select class="form-select" aria-label="Default select example" id="select">
-              <option selected disabled> Selecciona un estimado mensual...</option>
-              <option value="1">Menos de $50.000</option>
-              <option value="3">$50.000 a $100.000</option>
-              <option value="4">$100.000 a $500.000</option>
-            </select>
-          </div>
-   
-          <div class="mb-3">
-            <label for="comentario" class="form-label">¿Deseas dejarnos algún comentario?</label>
-            <textarea class="form-control" id="comentario" rows="2" placeholder="Danos más información sobre tu proyecto, necesidades y plazos"></textarea>
-          </div>
-      
-          <div class="d-grid gap-2">
-            <button class="btn  enviar descargar py-2 px-4" type="submit">Enviar</button>
-          </div>
-        </form>
       </div>  
-    </div>  
-  </div>
+    </section>
+
+  </main>
+  <!--fin main-->
+      
+  <!--footer-->
+  <footer>
+
+  </footer>
+  <!--fin footer-->
 
   <script src="./app.js"> </script>
   

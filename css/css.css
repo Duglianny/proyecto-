@@ -1,7 +1,12 @@
 .contenedor{
   background-color: rgba(156, 152, 179, 0.222);
   padding: 1rem 8rem;
+
   
+}
+
+.top-nav{
+  top: 1rem;
 }
 
 .flex{
@@ -11,14 +16,14 @@
 .navbar-brand img{
   width: 10rem;
 }
-.navbar{
+/*.navbar{
   border-radius: 1rem;
   background-color: #fff;
   padding: .5rem .2rem .5rem 2rem;
   font-size: 1rem;
   margin-bottom: 5rem;
   
-}
+}*/
 .inicio{
   color: #23d413;
   border: solid 1px #23d413;
@@ -76,6 +81,12 @@ label{
   font-size: 1rem ;
   width: 70%;
   color:rgba(63, 62, 62, 0.832)
+  
 }
-
+.parrafo{
+  background-color: #fff;
+  width: 82rem;
+  margin: 0;
+  padding: 0;
+}
 
